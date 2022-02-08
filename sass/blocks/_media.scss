@@ -249,5 +249,18 @@
       width: 115px;
     }
   }
+  .footer {
+    &__info {
+      padding-right: 25px;
+      padding-left: 25px;
+      width: 85%;
+    }
+    &__addr {
+      font-size: 18px;
+    }
+    &__phone {
+      font-size: 18px;
+    }
+  }
   
 }
