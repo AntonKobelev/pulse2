@@ -9,6 +9,7 @@
 @import "catalog";
 @import "reviews";
 @import "footer";
+@import "modal";
 
 
 @media (max-width: 991px) {
@@ -262,5 +263,77 @@
       font-size: 18px;
     }
   }
+
+  .modal {
+    padding: 35px 20px;
+    width: 90%;
+    .feed-form {
+      width: 100%;
+      button {
+        width: 100%;
+      }
+    }
+    &__subtitle {
+      font-size: 18px;
+      line-height: normal;
+
+    }
+    &__close {
+      font-size: 34px;
+      right: 0px;
+      top: -30px;
+      color: #fff;
+      font-weight: 100;
+    }
+  }
+
+  // .modal {
+  //   padding: 15px 20px;
+  //   width: 300px;
+  //   .feed-form {
+  //     width: 90%;
+  //     button {
+  //       width: 100%;
+  //     }
+  //   }
+  //   &__subtitle {
+  //     font-size: 18px;
+  //     line-height: normal;
+
+  //   }
+  //   &__close {
+  //     font-size: 34px;
+  //     right: -24px;
+  //   }
+  // }
+
+
+
   
 }
+
+// @media (max-width: 375px) {
+//   .modal {
+//     padding: 15px 20px;
+//     width: 90%;
+//     .feed-form {
+//       width: 100%;
+//       button {
+//         width: 100%;
+//       }
+//     }
+//     &__subtitle {
+//       font-size: 18px;
+//       line-height: normal;
+
+//     }
+//     &__close {
+//       font-size: 34px;
+//       right: 0px;
+//       top: -30px;
+//       color: #fff;
+//       font-weight: 100;
+//     }
+//   }
+
+// }
